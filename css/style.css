@@ -1,0 +1,108 @@
+* {
+  margin: 0 !important;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+}
+
+img {
+  max-width: 400px;
+}
+
+section {
+  clear: both;
+  width: 100% !important;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+}
+
+.nav {
+  margin: 25px;
+}
+
+.navbar {
+    font-size: 40px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+
+#name {
+  color: #fff
+}
+
+h1 {
+  margin: 0;
+  float:left;
+}
+
+h2 {
+  margin: auto;
+}
+
+.navbar .navbar-default {
+  margin: 0 !important ;
+  background: #333;
+  position: fixed;
+  top: 0px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  padding-left: 40px
+}
+
+.content {
+  margin:0 auto !important;
+  max-width: 70%;
+}
+
+#about {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#experience {
+  background: #26CCC6;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+#portfolio {
+  background: #CCB1C7;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  overflow-y: scroll;
+}
+
+img {
+  max-width: 200px;
+  margin: auto;
+  padding-top: 20px
+}
+
+.contact {
+  height: 200px;
+  font-size: 60px;
+  margin: auto;
+}
+
+i {
+  margin: auto;
+  max-width: 400px;
+}
+
+@media (max-width: 450px) {
+  #portfolio {
+    max-height: 700px;
+  }
+}
